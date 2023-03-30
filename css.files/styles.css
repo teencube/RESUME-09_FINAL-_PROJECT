@@ -1,0 +1,59 @@
+h1,h2,h4,h6,h5{
+    color: #000;
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color:rgba(0, 0, 0, 0.815);
+    color: rgba(255, 228, 196, 0.699);
+    display: flexbox;
+    border: 5px solid;
+    padding: 5px;
+    margin: left 3px;;
+    background-image: url(./FINAL_project_IMAGES/that\ image.jpg) ;
+    background-size: 1800px 1800px;
+    background-repeat: no-repeat;
+}
+
+section{
+border: rgba(0, 0, 0, 0.637);
+border: 4px solid;
+padding: 0%;
+
+}
+img{
+    max-width: 320px;
+    float: left;
+    border: 4px solid black;
+    border-radius: 13px;
+ margin-right: 13px;
+}   
+/* phones (tablets and large phones) */
+@media only screen and (min-width:500px) {
+    body{background-color: #00000033;}
+
+    
+}
+
+/* medium deviceslandscape tablets */
+@media only screen and (min-width:730px) {
+    footer{background-color: #00000011;}
+    
+}
+
+/* large devices(laptops/desktops */
+@media only screen and (min-width:1250px) {
+    header{color: beige; }
+    
+    
+}
+
+
+
+
+
+
